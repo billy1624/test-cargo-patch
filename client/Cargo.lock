@@ -5,7 +5,7 @@ version = 3
 [[package]]
 name = "child"
 version = "0.1.0"
-source = "git+https://github.com/billy1624/test-cargo-patch.git#6ab4657d2cd4ab9c02680f4ac9cd1bcf1446fffd"
+source = "git+https://github.com/billy1624/test-cargo-patch.git#12ec72985ab62538b4049fa028566653fcef9d62"
 dependencies = [
  "parent",
 ]
@@ -15,9 +15,14 @@ name = "client"
 version = "0.1.0"
 dependencies = [
  "child",
- "parent",
+ "parent-x",
 ]
 
 [[package]]
 name = "parent"
+version = "0.1.0"
+source = "git+https://github.com/billy1624/test-cargo-patch.git#12ec72985ab62538b4049fa028566653fcef9d62"
+
+[[package]]
+name = "parent-x"
 version = "0.1.0"
