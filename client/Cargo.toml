@@ -11,7 +11,7 @@ path = "src/lib.rs"
 
 [dependencies]
 child = { git = "https://github.com/billy1624/test-cargo-patch.git" }
-parent = { path = "../parent-x", package = "parent-x" }
+parent = { path = "../parent-x", package = "parent" }
 
 [patch.'https://github.com/billy1624/test-cargo-patch.git']
-parent = { path = "../parent-x", package = "parent-x" }
+parent = { path = "../parent-x", package = "parent" }

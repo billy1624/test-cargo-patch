@@ -1,7 +1,7 @@
 [workspace]
 
 [package]
-name = "parent-x"
+name = "parent"
 version = "0.1.0"
 edition = "2021"
 

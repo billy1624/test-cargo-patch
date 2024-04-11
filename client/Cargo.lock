@@ -15,14 +15,9 @@ name = "client"
 version = "0.1.0"
 dependencies = [
  "child",
- "parent-x",
+ "parent",
 ]
 
 [[package]]
 name = "parent"
-version = "0.1.0"
-source = "git+https://github.com/billy1624/test-cargo-patch.git#12ec72985ab62538b4049fa028566653fcef9d62"
-
-[[package]]
-name = "parent-x"
 version = "0.1.0"
