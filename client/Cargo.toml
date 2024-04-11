@@ -1,0 +1,17 @@
+[workspace]
+
+[package]
+name = "client"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "client"
+path = "src/lib.rs"
+
+[dependencies]
+child = { git = "https://github.com/billy1624/test-cargo-patch.git" }
+parent = { path = "../parent", package = "parent" }
+
+[patch.'https://github.com/billy1624/test-cargo-patch.git']
+parent = { path = "../parent", package = "parent" }

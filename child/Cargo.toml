@@ -1,0 +1,13 @@
+[workspace]
+
+[package]
+name = "child"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "child"
+path = "src/lib.rs"
+
+[dependencies]
+parent = { git = "https://github.com/billy1624/test-cargo-patch.git" }

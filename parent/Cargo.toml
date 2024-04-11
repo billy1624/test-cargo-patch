@@ -1,0 +1,13 @@
+[workspace]
+
+[package]
+name = "parent"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "parent"
+path = "src/lib.rs"
+
+[dependencies]
+
